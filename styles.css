@@ -1,0 +1,96 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #4c4e52;
+    background-color: #f1f1f1;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ffffff;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.header .logo {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #4c4e52;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.footer {
+    background-color: #ffffff;
+    box-shadow: 0px -1px 5px rgba(0,0,0,0.1);
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.footer p {
+    text-align: center;
+    color: #828282;
+    font-size: 14px;
+}
+
+.article {
+    margin-bottom: 60px;
+}
+
+.article h1 {
+    font-size: 2em;
+    color: #4c4e52;
+    margin-bottom: 0.75em;
+}
+
+.article p {
+    font-size: 1.125em;
+    color: #6d6d6d;
+    line-height: 1.8;
+    margin-bottom: 1.6em;
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    display: inline-block;
+    background-color: #4c4e52;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Styling for code blocks */
+pre {
+    background-color: #f5f5f5; /* Light grey background */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 4px; /* Optional: rounds the corners */
+    padding: 10px; /* Padding inside the code block */
+    overflow-x: auto; /* Makes it scrollable horizontally if the code is too long */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace; /* Ensure code inside `pre` is monospace */
+    white-space: pre-wrap;
+}
